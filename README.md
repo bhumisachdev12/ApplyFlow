@@ -124,24 +124,6 @@ applyflow/
 ### Analytics
 - `GET /api/analytics/summary` - Get analytics data
 
-## 🚀 Deployment
-
-### Frontend (Vercel)
-1. Connect GitHub repo to Vercel
-2. Set build command: `cd client && npm run build`
-3. Set output directory: `client/dist`
-4. Add environment variables
-
-### Backend (Railway/Render)
-1. Connect GitHub repo
-2. Set build command: `cd server && npm run build`
-3. Set start command: `cd server && npm start`
-4. Add environment variables
-
-### Database (MongoDB Atlas)
-1. Create cluster on MongoDB Atlas
-2. Update `MONGODB_URI` in production environment
-3. Whitelist deployment IP addresses
 
 ## 🔧 Development Scripts
 
